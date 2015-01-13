@@ -96,7 +96,7 @@ for number in range(START_NUM, NUM_DIRS+1):
 
     # Write out the current directory as JSON
     with open("karchive/{:02d}.json".format(number), "w") as f:
-        f.write(json.dumps(director))
+        f.write(json.dumps(directory))
 
 # Print a newline if we had printed inline stuff
 if need_newline:
